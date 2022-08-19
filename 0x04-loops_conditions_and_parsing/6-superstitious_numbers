@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# use the base "case" statement in implementing some conditions
+
+i="0"
+while [ $i -lt 21 ]
+do
+	echo $i
+	case $i in
+	4)
+		echo "bad luck from China"
+	;;
+	9)
+		echo "bad luck from Japan"
+	;;
+	17)
+		echo "bad luck from Italy"
+	;;
+	esac
+	((i+=1))
+done
+	 
