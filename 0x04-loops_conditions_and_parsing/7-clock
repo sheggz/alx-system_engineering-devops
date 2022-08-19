@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# a scpript that uses nested while loops to print hours from 0-12
+#+ and minutes from 1-59
+
+i="0"
+j="1"
+
+while [ $i -le 12 ]
+do
+	echo "hour: $i"
+	while ((j<=59))
+	do
+		echo "$j"
+		((j+=1));
+	done
+	# reset minutes
+	j="1"
+	((i+=1))
+done
