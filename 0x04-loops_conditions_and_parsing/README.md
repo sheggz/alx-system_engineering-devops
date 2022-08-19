@@ -227,7 +227,7 @@ when you generate an rsa key two files are generated: "id_rsa",  "id_rsa.pub":
 *    "id_rsa.pub" is the public key, It is the one that we are going to use at point 0 of the project, we must change its name.
 *    "id_rsa": It is the private key and it is the one that must be kept in a confident place
 
-### [1. For Holberton School loop](./1-for_holberton_school)
+### [1. For Best School loop](./1-for_holberton_school)
 * Write a Bash script that displays Holberton School 10 times.
 
 *    You must use the for loop (while and until are forbidden)
@@ -237,16 +237,16 @@ sylvain@ubuntu$ head -n 2 1-for_holberton_school
 #!/usr/bin/env bash
 # This script is displaying "Holberton School" 10 times
 sylvain@ubuntu$ ./1-for_holberton_school 
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
 sylvain@ubuntu$ 
 ```
 Note that:
@@ -254,41 +254,41 @@ Note that:
 *    The first line of my Bash script starts with #!/usr/bin/env bash (To be portable).
 *    The second line of my Bash scripts is a comment explaining what it is doing.
 
-### [2. While Holberton School loop](./2-while_holberton_school)
+### [2. While Best School loop](./2-while_holberton_school)
 * Write a Bash script that displays Holberton School 10 times.
 
 * You must use the while loop (for and until are forbidden)
 ```
 sylvain@ubuntu$ ./2-while_holberton_school
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
 sylvain@ubuntu$ 
 ```
 
-### [3. Until Holberton School loop](./3-until_holberton_school)
+### [3. Until Best School loop](./3-until_holberton_school)
 * Write a Bash script that displays Holberton School 10 times.
 
 * You must use the until loop (for and while are forbidden)
 ```
 sylvain@ubuntu$ ./3-until_holberton_school
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
 sylvain@ubuntu$ 
 ```
 
@@ -299,17 +299,18 @@ sylvain@ubuntu$
 *    You must use the if statement
 ```
 sylvain@ubuntu$ ./4-if_9_say_hi
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
-Holberton School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
+Best School
 Hi
-Holberton School
+Best School
 sylvain@ubuntu$ 
 ```
 
@@ -327,16 +328,16 @@ Requirements:
 *    You must use the if, elif and else statements
 ```
 sylvain@ubuntu$ ./5-4_bad_luck_8_is_your_chance
-Holberton School
-Holberton School
-Holberton School
+Best School
+Best School
+Best School
 bad luck
-Holberton School
-Holberton School
-Holberton School
+Best School
+Best School
+Best School
 good luck
-Holberton School
-Holberton School
+Best School
+Best School
 sylvain@ubuntu$ 
 ```
 
