@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# implement bash if-then-elif-else-fi statement
+
+i=0
+
+while [ $i -lt 10 ];
+do
+	if [ "$i" -eq "3" ]; then
+		echo -e "bad luck"
+	elif ((i==7)); then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	((i+=1))
+done
