@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# implement bash if-then-else-fi statement
+
+i=0
+
+while [ $i -lt 10 ];
+do
+	if [ "$i" -eq "8" ]; then
+		echo -e "Best School\nHI"
+	else
+		echo "Best School"
+	fi
+	((i+=1))
+done
